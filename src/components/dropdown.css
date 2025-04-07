@@ -1,0 +1,10 @@
+
+.dropdown select{
+    width: 420px;
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #2a122c;
+    color: #F9ED69;
+    font-weight: bolder;
+}
