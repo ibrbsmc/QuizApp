@@ -21,10 +21,6 @@
     font-size: 1.1em;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.questionCard button:hover{
-    background-color: aqua;
-    transition: .6s;
-}
 .questionCard-timer{
     width: 45px;
     height: 45px;
