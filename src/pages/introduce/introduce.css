@@ -6,21 +6,20 @@
     justify-content: center;    
 }
 .introduce-container{
-    width: auto;
+    width: fit-content;
     max-width: 700px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 80px;
-    width: fit-content;
 }
 .quiz-image{
-    width: fit-content !important;
+    width: 360px !important;
     height: 260px !important;
     margin-bottom: 50px;
     position: absolute;
-    top: 40px;
+    top: 80px;
 }
 
 .introduce-btn{
