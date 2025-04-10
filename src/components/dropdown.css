@@ -1,10 +1,27 @@
+/* Container for dropdown */
+.dropdown {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
 
-.dropdown select{
-    width: 420px;
-    height: 35px;
-    border-radius: 5px;
-    text-align: center;
-    background-color: #2a122c;
-    color: #F9ED69;
-    font-weight: bolder;
+/* Styles for select element */
+.dropdown select {
+  width: 100%;
+  max-width: 420px; /* Maximum width */
+  height: 35px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #2a122c;
+  color: #F9ED69;
+  font-weight: bolder;
+  box-sizing: border-box; /* Ensures padding does not affect the width */
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 480px) {
+  .dropdown select {
+    max-width: 100%; /* Full width on small screens */
+  }
 }
